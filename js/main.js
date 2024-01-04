@@ -11,3 +11,13 @@ close.addEventListener("click", () => {
   menu.classList.remove("show");
 });
 
+/* ========== SignIn Form =========== */
+const signInForm = document.querySelector("header .wrapper");
+
+document.querySelector(".signin").onclick = () => {
+  signInForm.classList.add("active");
+};
+
+document.querySelector(".close-form").onclick = () => {
+  signInForm.classList.remove("active");
+};
